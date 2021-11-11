@@ -1,9 +1,16 @@
 h1{
   color:whitesmoke;
+  text-align: center;
 }
 .body{
   background-image: url(/static/images/1PhgGC.jpg);
   }
   p{
   color: white;
+  text-align: center;
+  }
+  .button{
+    background-color: whitesmoke;
+    border-radius: 50%;
+
   }
