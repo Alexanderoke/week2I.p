@@ -4,6 +4,7 @@ h1{
 }
 .body{
   background-image: url(/static/images/1PhgGC.jpg);
+  image-resolution:unset
   }
   p{
   color: white;
@@ -12,5 +13,7 @@ h1{
   .button{
     background-color: whitesmoke;
     border-radius: 50%;
+    font-size: large;
+    
 
   }
