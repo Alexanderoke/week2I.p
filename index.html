@@ -27,6 +27,7 @@
       </div>
       <div class="form">
         <!--form-->
+        <fieldset>
         <form class="form wrapper">
           <div>
             <input type="text" placeholder="First Name"/>
@@ -41,11 +42,14 @@
             <input type="number" placeholder="Year of birth"/>
           </div>
           <div>
-            <input type="checkbox" aria-label="male">
-                   
-            <input type="checkbox" aria-label="female">
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">  
           </div>
         </form>
+      </fieldset>
         <!--<input type="text" onfocus="this.value=''" value="Blabla">-->
       </div>
       <!--</button>-->
