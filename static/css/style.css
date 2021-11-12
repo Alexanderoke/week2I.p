@@ -3,7 +3,8 @@ h1{
   text-align: center;
 }
 .body{
-  background-color: whitesmoke;
+  
+  background:linear-gradient(to right pink yellow);
   background-size: cover;
   background-attachment: fixed;
   image-resolution:unset
@@ -12,4 +13,10 @@ h1{
   color: black;
   text-align: center;
   }
+  .form{
+    display:block;
+    text-align: center;
+    max-block-size: 120px;
+  }
+  
   
