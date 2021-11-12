@@ -4,19 +4,28 @@ h1{
 }
 .body{
   
-  background:linear-gradient(to right pink yellow);
+  background-image:url(/static/images/hmTOpa.jpg);
   background-size: cover;
   background-attachment: fixed;
   image-resolution:unset
   }
   p{
-  color: black;
+  color:white;
   text-align: center;
   }
   .form{
     display:block;
     text-align: center;
-    max-block-size: 120px;
+    block-size: 200px;
   }
-  
+  .form wrapper{
+
+  }
+  .text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 10px;
+  }
   
