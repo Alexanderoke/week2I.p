@@ -59,19 +59,19 @@ function akanName() {
   var Cc = parseInt(document.getElementById("yb").value)
   switch ("yb") {
     case 1:
-      (yb => 1700 && yb <= 1799)
+      yb => 1700 && yb <= 1799
       var yb = parseInt(Cc[0]);
       break;
     case 2:
-      (yb => 1800 && yb <= 1899)
+      yb => 1800 && yb <= 1899
       var yb = parseInt(Cc[1]);
       break;
     case 3:
-      (yb => 1900 && yb <= 1999);
+      yb => 1900 && yb <= 1999;
       var yb = parseInt(Cc[2]);
       break;
     case 4:
-      (yb => 2000 && yb <= 2099);
+      yb => 2000 && yb <= 2099;
       var yb = parseInt(Cc[3]);
       break;
     default:
