@@ -14,3 +14,4 @@ The app doesn't work as expected.
 This code is written in html , css and javascript.
 ## Support and contact details
 Feel free to contribute and add to the code. If you run into any problems reach out via www.twitter.com/oke.
+This is under the [MIT](LICENSE) license.
