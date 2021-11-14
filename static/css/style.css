@@ -17,6 +17,7 @@ h1{
     block-size: 200px;
   }
   .form wrapper{
+    size: 100px;
 
   }
   .text {
@@ -30,4 +31,7 @@ h1{
     outline: red;
     size: 50px;
     
+  }
+  .input[type=text], select, textarea {
+    width: 100%;
   }
