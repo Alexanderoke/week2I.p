@@ -7,7 +7,7 @@ This App calculates the day of the week a user was born from the birth date, mon
 * Clone the repo git clone https://github.com/Alexanderoke/week2I.p.git
 run the code in a browser of your choice.
 
-## Live link
+## live link.  https://alexanderoke.github.io/week2I.p/
 ## Known Bugs
 The app doesn't work as expected.
 ## Technologies Used
