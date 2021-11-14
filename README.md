@@ -1,19 +1,16 @@
 # Akan Name Application
-#### the application calculates the birth day as per the user's gender and day of the week., {Date of current version}
-#### By **{List of contributors}**
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+#### The application gives the user his/her birthday name as perthe ghanian week day child naming culture., Current virsion.November.14
+#### By **Alexander oke**
+##
+This App calculates the day of the week a user was born from the birth date, month, and year provided and gives the user an akan Name, akan names are names given to ghanian children corresponding to the day of the week he or she is born.
 ## Setup/Installation Requirements
-* Clone the repo {git clone https://github.com/jonnygovish/cookie-recipe.git}
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Clone the repo git clone https://github.com/Alexanderoke/week2I.p.git
+run the code in a browser of your choice.
+
 ## Live link
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+This code is written in html , css and javascript.
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
