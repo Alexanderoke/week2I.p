@@ -13,4 +13,4 @@ The app doesn't work as expected.
 ## Technologies Used
 This code is written in html , css and javascript.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+Feel free to contribute and add to the code. If you run into any problems reach out via www.twitter.com/oke.
