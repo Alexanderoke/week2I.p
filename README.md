@@ -9,7 +9,7 @@ run the code in a browser of your choice.
 
 ## Live link
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The app doesn't work as expected.
 ## Technologies Used
 This code is written in html , css and javascript.
 ## Support and contact details
