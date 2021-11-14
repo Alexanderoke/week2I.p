@@ -4,17 +4,19 @@
   margin: 20px;
 }
 h1{
-  color:white;
+  color:rgb(15, 11, 11);
   text-align: center;
   padding:10px
 }
 .body{
+  background-image: linear-gradient(to right ,black,gray);
   background-size: cover;
   background-attachment: fixed;
-  background:linear-gradient(black ,gray) 
+  background-attachment: fixed;
+  animation-fill-mode: backwards;
   }
   p{
-  color:white;
+  color:blanchedalmond;
   text-align: center;
   font-family:cursive;
   padding:10px;
@@ -22,13 +24,21 @@ h1{
 
   }
   .form{
-    display:block;
+    
     text-align: center;
     block-size: 200px;
+
   }
   .form wrapper{
-    float:right;    
+    float:right; 
+    padding: auto;
+    
 
+  }
+  .number1{
+    box-sizing: content-box 12px;
+    border:hover;
+  
   }
   .text {
     width: 100%;
