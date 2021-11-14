@@ -1,8 +1,10 @@
 function akanName() {
   var Db = parseInt(document.getElementById("Db").value)
+  // the arrays are odd days of the month and century also known as codes.
   var Mc = new Array("1", "4", "4", "0", "2", "5", "0", "3", "6", "1", "4", "6");
   var Cc = new Array("4", "2", "0", "6");
   var Mb = parseInt(document.getElementById("Mb").value);
+  // getting the month code. odd days
   switch (Mb) {
     case 1:
       (Mb == 01)
@@ -53,7 +55,7 @@ function akanName() {
     default:
       alert("wrong month format!");
   }
-
+// Getting the century code.
   var Cc = parseInt(document.getElementById("yb").value)
   switch ("yb") {
     case 1:
@@ -75,22 +77,23 @@ function akanName() {
     default:
       alert("Fossils Not Allowed!")
   }
-  var day = new Array("sunday", "Monday", "Tuesday", "Wednesday"."Thursday", "Friday", "Saturday");
+  var day = new Array("sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday");
   var akanmName = new Array("Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame");
   var akanFname = new Array("Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama");
   function Mf() {
-    var Male = document.getElementById("male").checked,;
-    var Female = document.getElementById("female").checked,;
+    var Male = document.getElementById("male").checked;
+    var Female = document.getElementById("female").checked;
   }
-
+// akan function runs the calculating formula.
   function akan() {
     yb = document.getElementById("yb").value;
     var yy = parseInt(yb.substring(2, 5));
+    // formula
     d = (Db + Mc + Cc + yy + (yy / 4)) % 7;
     return (Math.floor(d));
   }
 
-
+// getting the male akan name.
   switch (Male) {
     case 1:
       (Math.floor(d)) == 0
@@ -124,7 +127,7 @@ function akanName() {
       alert("YOU NO HAVE NAME!")
   }
 
-
+// getting the female akan name.
   switch (female) {
     case 1:
       (Math.floor(d)) == 0;
@@ -159,6 +162,9 @@ function akanName() {
   }
 
 }
+/*End
+Of
+Script*/
 
 
 
