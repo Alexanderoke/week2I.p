@@ -1,6 +1,12 @@
+.container{
+  content: normal;
+  padding: 5px;
+  margin: 20px;
+}
 h1{
   color:white;
   text-align: center;
+  padding:10px
 }
 .body{
   background-size: cover;
@@ -10,6 +16,10 @@ h1{
   p{
   color:white;
   text-align: center;
+  font-family:cursive;
+  padding:10px;
+  margin:5px;
+
   }
   .form{
     display:block;
@@ -17,7 +27,7 @@ h1{
     block-size: 200px;
   }
   .form wrapper{
-    size: 100px;
+    float:right;    
 
   }
   .text {
@@ -27,9 +37,9 @@ h1{
     box-sizing: border-box;
     border: 10px;
   }
-  .btn{
-    outline: red;
-    size: 50px;
+  .btn:hover{
+    size: 3000px;
+    color: black;
     
   }
   .input[type=text], select, textarea {
