@@ -124,7 +124,7 @@ function akanName() {
       alert(document.getElementById("name"), "your akan Name is" + akanmName[6]);
       break;
     default:
-      alert("YOU NO HAVE NAME!")
+      alert("YOU NO HAVE NAME!");
   }
 
 // getting the female akan name.
