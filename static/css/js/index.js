@@ -158,7 +158,7 @@ function akanName() {
       alert(document.getElementById("name"), "your akan Name is" + akanFname[6]);
       break;
     default:
-      alert("YOU NO HAVE NAME!")
+      alert("YOU NO HAVE NAME!");
   }
 
 }
